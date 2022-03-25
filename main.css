@@ -1,0 +1,121 @@
+* {
+    font-size: 1.0em;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: cadetblue;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+    align-items: right;
+    word-spacing: 1pt;
+  }
+  h1{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.05rem;
+
+  }
+  a {
+    text-decoration: none;
+  }
+  a hover{
+    background-color: black;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0.3em;
+    min-height: 1em;
+    position: sticky;
+    word-spacing: 2pt;
+  }
+  
+  .nav-link {
+    padding: 0.2em;
+    margin: 0 0.3rem;
+  }
+  
+  .jumbotron {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 0%;
+  }
+  main{
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center ;
+    width: 80vw;
+    min-height:30vh;
+  }
+  nav{
+    opacity: 0.5em;
+    line-height: 3em;
+  }
+  .projects{
+    display: flex;
+    flex-direction: row;
+  }
+  .project{
+    width: 300px;
+    display: flexs;
+  }
+  .social{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    margin-left: 20em;
+    min-height: 40em;
+    margin-top: 10px;
+  }
+  .navbar-collapse{
+    float: right;
+  }
+  
+  .description {
+    max-width: 400px;
+    padding: 0.5em;
+  }
+  footer{
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+  }
+  table{
+    border-collapse: collapse;
+    width: 90%;
+  }
+  .form-input{
+    width: 100%;
+    min-height: 3rem;
+    margin-top: 1em;
+    padding: 0.15rem 0.25rem;
+    border-radius: 1rem;
+    background: hsl(210, 36%, 96%);
+    font-size: 1em;
+    border-color: darkgrey;
+  }
+  footer ul{
+    list-style-type: none;
+    background-color: darkgray;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  footer p{
+    text-align: center;
+    margin-bottom: 30px;
+  }
